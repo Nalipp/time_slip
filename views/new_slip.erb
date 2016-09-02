@@ -1,0 +1,40 @@
+<h1>Enter pay period</h1>
+<form class="inline_form" action="/slips" method="post">
+  <input name="slip_name" placeholder="date-range" type="text"/>
+  <input name="teacher_name" placeholder="Teacher name" type="text"/>
+  <button type="submit">create</button>
+</form>
+
+<!-- <h1>Add new times</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% session[:time_slips].each do |time_slip| %>
+    <tr>
+      <form class="inline_form" action="edit" method="post">
+        <td><%= time_slip[0] %></td>
+        <td><input name="date" value="<%= time_slip[1] %>"></td>
+        <td><input name="name" value="<%= time_slip[2] %>"></td>
+        <td><input name="total_minutes" value="<%= time_slip[3] %>"></td>
+        <td><button type="submit">Edit</button></td>
+      </form>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<form class="inline_form" action="/time_slip" method="post">
+  <input name="date" placeholder="date">
+  <input name="student_name" placeholder="name" value="<%= @student_name %>">
+  <input name="total_minutes" placeholder="total minutes" value="<%= @total_minutes %>">
+  <button type="submit">Create</button>
+</form> -->

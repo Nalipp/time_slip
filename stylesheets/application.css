@@ -1,0 +1,14 @@
+body {
+  font-family: monospace;
+  color: #4d4d4d;
+}
+
+table {
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+form {
+  padding-top: 20px;
+  margin-top: 20px;
+}

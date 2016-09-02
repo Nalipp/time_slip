@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Time Turtle</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/stylesheets/application.css">
+  </head>
+  <body>
+    <% if session[:error] %>
+      <p class="error-message"><%= session.delete(:error) %></p>
+    <% end %>
+    <%== yield %>
+  </body>
+</html>
